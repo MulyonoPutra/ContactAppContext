@@ -1,0 +1,5 @@
+{
+    "reactSnippets.settings.importReactOnTop": false,
+    "path-autocomplete.extensionOnImport": true,
+    "path-intellisense.extensionOnImport": true
+}
