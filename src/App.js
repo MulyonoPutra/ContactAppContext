@@ -1,6 +1,6 @@
-import { ContactList } from './pages/Index';
 import Header from './components/Header';
 import ContactForm from './pages/ContactForm';
+import { ContactList } from './pages/Index';
 
 function App() {
   return (
@@ -28,3 +28,8 @@ function App() {
 }
 
 export default App;
+
+/// Store: Suatu wadah besar yang menyimpan state secara global
+/// Reducer: Suatu fungsi untuk meng-update value yang ada pada Store
+/// Dispatch / Action: Proses pemanggilan sebuah instruksi/fungsi yg disediakan/dimiliki oleh reducer
+/// Subscribtion: Proses pemanggilan store yang diperlukan
