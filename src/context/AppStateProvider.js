@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useReducer } from "react";
+
 import PropTypes from "prop-types";
-// @ts-ignore
+
 const Context = createContext();
 
 export const AppStateProvider = ({ reducer, initialState = {}, children }) => {
@@ -9,9 +10,7 @@ export const AppStateProvider = ({ reducer, initialState = {}, children }) => {
 };
 
 AppStateProvider.propTypes = {
-  // @ts-ignore
   reducer: PropTypes.func,
-  // @ts-ignore
   initialState: PropTypes.object,
 };
 
